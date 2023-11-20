@@ -1,0 +1,20 @@
+addict
+future
+lmdb
+# numpy>=1.17
+numpy
+opencv-python
+Pillow
+pyyaml
+requests
+scikit-image
+scipy
+tb-nightly
+# torch==1.8.0
+torch
+torchvision
+tqdm
+yapf
+timm 
+einops
+h5py
