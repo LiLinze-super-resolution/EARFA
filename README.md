@@ -23,7 +23,7 @@ Used training and testing sets can be downloaded as follows:
 |:---------------------------------------------------------------------------------------------------|:-------------------------------------------:|
 | [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) (800 training images, 100 validation images)    | Set5 + Set14 + BSD100 + Urban100 + Manga109 |
 
-You can download Train datasets and test datasets from [datasets](http:aliyunpan.com).
+You can download Train datasets and test datasets from [datasets](https://www.aliyundrive.com/s/ZDUy4uLfCVF).
 Download training and testing datasets and put them into the corresponding folders of `datasets/`. See [datasets](datasets/README.md) for the detail of the directory structure.
 
 ## Models
@@ -33,7 +33,8 @@ Download training and testing datasets and put them into the corresponding folde
 | EARFA-tiny |  635   |   35.5    | Urban100 |   26.44   | 0.7971 |
 | EARFA      |  1045  |   58.4    | Urban100 |   26.68   | 0.8039 |
 
-The performance is reported on Urban100 (x4). 'FLOPs' output size of FLOPs is 3×1280×720. 
+- You can download pretrained models for testing from [models](https://drive.google.com/drive/folders/13XDUUbskMHwEwCbGbeT8k7g4EamrWLXb?usp=sharing).
+- The performance is reported on Urban100 (x4). 'FLOPs' output size of FLOPs is 3×1280×720. 
 
 ## Training
 
@@ -55,7 +56,7 @@ The performance is reported on Urban100 (x4). 'FLOPs' output size of FLOPs is 3�
 
 - Download the pre-trained [models](google_dirve) and place them in `experiments/pretrained_models/`.
 
-  We provide pre-trained models for image SR: EARFA and EARFA-tiny.
+- We provide pre-trained models for image SR: EARFA and EARFA-tiny.
 
 - Run the following scripts. The testing configuration is in `options/Test/` (e.g., [test_EARFA_x2.yml](options/Test/test_EARFA_x2.yml)).
 
@@ -67,19 +68,6 @@ The performance is reported on Urban100 (x4). 'FLOPs' output size of FLOPs is 3�
   ```
 
 - The output is in `results/`.
-
-## Citation
-
-If you find the code helpful in your research or work, please cite the following paper(s).
-
-```
-@inproceedings{li2024entropy,
-    title={Efficient Single Image Super-Resolution with Entropy Attention and Receptive Field Augmentation},
-    author={},
-    booktitle={},
-    year={2024}
-}
-```
 
 ## Acknowledgements
 
