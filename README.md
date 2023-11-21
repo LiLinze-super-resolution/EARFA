@@ -23,9 +23,7 @@ Used training and testing sets can be downloaded as follows:
 |:-----------------------------------------------------|:-------------------------------------------:|
 | DIV2 (800 training images, 100 validation images)    | Set5 + Set14 + BSD100 + Urban100 + Manga109 |
 
-- You can download Train datasets and test datasets from [datasets](https://www.aliyundrive.com/s/ZDUy4uLfCVF),
-but if you want to train EARFA by this code, you need to refer [BasicSR](https://github.com/XPixelGroup/BasicSR) to make sub-datasets form datasets, which you download.
-- 
+- You can download Train datasets and test datasets from [datasets](https://www.aliyundrive.com/s/ZDUy4uLfCVF), but if you want to train EARFA by this code, you need to refer [BasicSR](https://github.com/XPixelGroup/BasicSR) to make sub-datasets form datasets, which you download.
 - Download training and testing datasets and put them into the corresponding folders of `datasets/`. See [datasets](datasets/README.md) for the detail of the directory structure.
 
 ## Models
